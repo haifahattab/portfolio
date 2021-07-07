@@ -1,0 +1,175 @@
+.fold {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0rem auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22%;
+    background-image: url("../assets/images/card-dev-web-f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-contact {
+    border: rgb(206, 151, 233) solid 2px;
+    color: white;
+}
+
+.btn-contact:hover {
+    color: rgb(206, 151, 233);
+    border: white solid 2px;
+}
+
+.img-logo {
+    margin: auto;
+}
+
+.section__title {
+    font: italic small-caps bold 25px cursive;
+}
+
+.violet {
+    color: rgb(206, 151, 233);
+}
+
+.title-portfolio {
+    color: rgb(206, 151, 233);
+}
+
+.tech__list {
+    list-style: none;
+}
+
+.codebtn {
+    color: rgb(206, 151, 233);
+    border: rgb(39, 37, 37) solid 2px;
+}
+
+.icon {
+    height: 2.5rem;
+    font-size: 2.5rem;
+    color: #4A4A4A;
+}
+
+.codebtn:hover {
+    border: rgb(206, 151, 233) solid 2px;
+    color: rgb(39, 37, 37);
+}
+
+.single-course__wrapper {
+    max-width: 900px;
+    margin: 2rem auto 1rem auto;
+}
+
+.full-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.full-date__month {
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+.full-date__year {
+    font-size: 2rem;
+    padding: 0.7rem;
+}
+
+.tile__title {
+    color: rgb(206, 151, 233);
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background: #f6f5f5;
+    padding: 2rem 4rem;
+    position: relative;
+    line-height: 1.6rem;
+}
+
+.tile::before {
+    content: "";
+    background: rgb(206, 151, 233);
+    height: 30px;
+    width: 60px;
+    position: absolute;
+    top: 4rem;
+    display: inline;
+}
+
+.tile--odd::before {
+    left: -15px;
+}
+
+.tile--even::before {
+    right: -15px;
+}
+
+.course-type {
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 700px) {
+    .logo {
+        width: 40%;
+        margin-left: 20px;
+    }
+    .header_link {
+        color: rgb(45, 45, 51);
+        font-size: 20px;
+    }
+    .header_link:hover {
+        color: rgb(200, 135, 233);
+        text-decoration: none;
+    }
+    .header__icon {
+        width: 20px;
+        height: 20px;
+    }
+    .img-portfolio {
+        height: 80%;
+    }
+    .tool__title {
+        color: rgb(200, 135, 233);
+        font-weight: bold;
+    }
+    .tool__logo {
+        height: 100px;
+    }
+    .about_bloc {
+        border: rgb(200, 135, 233) 2px solid;
+        padding: 0px;
+    }
+    .about_title {
+        background-color: rgb(200, 135, 233);
+        color: white;
+    }
+    .single-course__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    .reverted {
+        grid-template-columns: 4fr 1fr;
+    }
+    .full-date__reverted {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .full-date {
+        flex-direction: column;
+    }
+    .footer__column,
+    .dev-column {
+        border-left: rgb(200, 135, 233) 2px solid;
+        margin-left: 20px;
+    }
+}
