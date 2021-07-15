@@ -159,6 +159,7 @@
 .img-haifa {
     height: 200px;
     width: 200px;
+    border: 2px solid rgb(206, 151, 233);
     border-radius: 50%;
     display: block;
     margin-left: auto;
