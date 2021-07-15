@@ -10,6 +10,25 @@
     background-size: cover;
 }
 
+.logo {
+    width: 70%;
+}
+
+.header_link {
+    color: rgb(45, 45, 51);
+    font-size: 20px;
+}
+
+.header_link:hover {
+    color: rgb(200, 135, 233);
+    text-decoration: none;
+}
+
+.header__icon {
+    width: 20px;
+    height: 20px;
+}
+
 .btn-contact {
     border: rgb(206, 151, 233) solid 2px;
     color: white;
@@ -36,6 +55,16 @@
     color: rgb(206, 151, 233);
 }
 
+.img-portfolio {
+    width: 80%;
+    height: 80%;
+}
+
+.img-cv {
+    width: 170px;
+    height: 170px;
+}
+
 .tech__list {
     list-style: none;
 }
@@ -46,14 +75,23 @@
 }
 
 .icon {
-    height: 2.5rem;
-    font-size: 2.5rem;
+    height: 1.5rem;
+    font-size: 1.5rem;
     color: #4A4A4A;
 }
 
 .codebtn:hover {
     border: rgb(206, 151, 233) solid 2px;
     color: rgb(39, 37, 37);
+}
+
+.tool__title {
+    color: rgb(200, 135, 233);
+    font-weight: bold;
+}
+
+.tool__logo {
+    height: 30px;
 }
 
 .single-course__wrapper {
@@ -118,25 +156,23 @@
     margin-top: 1rem;
 }
 
+.img-haifa {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (min-width: 700px) {
     .logo {
         width: 40%;
         margin-left: 20px;
     }
-    .header_link {
-        color: rgb(45, 45, 51);
-        font-size: 20px;
-    }
-    .header_link:hover {
-        color: rgb(200, 135, 233);
-        text-decoration: none;
-    }
-    .header__icon {
-        width: 20px;
-        height: 20px;
-    }
     .img-portfolio {
-        height: 80%;
+        height: 95%;
+        width: 100%;
     }
     .tool__title {
         color: rgb(200, 135, 233);
@@ -171,5 +207,9 @@
     .dev-column {
         border-left: rgb(200, 135, 233) 2px solid;
         margin-left: 20px;
+    }
+    .iframe {
+        height: 280px;
+        width: 400px;
     }
 }
