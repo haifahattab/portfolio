@@ -157,23 +157,30 @@
 }
 
 .img-haifa {
-    height: 200px;
-    width: 200px;
-    border: 2px solid rgb(206, 151, 233);
+    height: 100px;
+    width: 100px;
+    border: 3px solid rgb(206, 151, 233);
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+.img-devland {
+    height: 200px;
+}
+
 @media screen and (min-width: 700px) {
     .logo {
-        width: 40%;
-        margin-left: 20px;
+        width: 50%;
+        margin-left: 50px;
     }
     .img-portfolio {
         height: 95%;
         width: 100%;
+    }
+    .header-nav {
+        margin-left: 40%;
     }
     .tool__title {
         color: rgb(200, 135, 233);
@@ -182,13 +189,8 @@
     .tool__logo {
         height: 100px;
     }
-    .about_bloc {
-        border: rgb(200, 135, 233) 2px solid;
-        padding: 0px;
-    }
     .about_title {
-        background-color: rgb(200, 135, 233);
-        color: white;
+        color: rgb(200, 135, 233);
     }
     .single-course__wrapper {
         display: grid;
@@ -211,6 +213,10 @@
     }
     .iframe {
         height: 280px;
-        width: 400px;
+        width: 450px;
+    }
+    .img-haifa {
+        height: 200px;
+        width: 200px;
     }
 }
